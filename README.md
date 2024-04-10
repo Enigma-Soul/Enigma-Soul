@@ -7,7 +7,8 @@
 [![Enigma-Soul's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Enigma-Soul&theme=github-compact&custom_title=Enigma-Soul的Github活动图)](https://github.com/Enigma-Soul)
 
 ### 其他网站
-[![bilibili](https://stats.justsong.cn/api/bilibili/?id=3493258967648353](space.bilibili.com/3493258967648353)
+[![B站](https://stats.justsong.cn/api/bilibili/?id=3493258967648353&lang=zh-CN)](space.bilibili.com/3493258967648353)
+[![CSDN](https://stats.justsong.cn/api/csdn?id=Genius_First&lang=zh-CN)](blog.csdn.net/Genius_First)
 
 ### 比较拿的出手的项目
 
