@@ -11,7 +11,7 @@
 [![CSDN](https://stats.justsong.cn/api/csdn?id=Genius_First&lang=zh-CN)](blog.csdn.net/Genius_First)
 
 [![csdn](https://github.com/Enigma-Soul/Enigma-Soul/assets/119654171/8954f8c1-fc64-46df-ade8-8e210ace9faa)](https://blog.csdn.net/Genius_First)
-![空格](https://github.com/Enigma-Soul/Enigma-Soul/assets/119654171/d6132cb4-1f6b-4fa4-9487-191316d8f289)]
+![空格](https://github.com/Enigma-Soul/Enigma-Soul/assets/119654171/d6132cb4-1f6b-4fa4-9487-191316d8f289)
 ![空格](https://github.com/Enigma-Soul/Enigma-Soul/assets/119654171/d6132cb4-1f6b-4fa4-9487-191316d8f289)
 [![b站](https://github.com/Enigma-Soul/Enigma-Soul/assets/119654171/69ac6e4a-532d-4e93-a426-2e9795be4ee3)](https://space.bilibili.com/3493258967648353)
 ![空格](https://github.com/Enigma-Soul/Enigma-Soul/assets/119654171/d6132cb4-1f6b-4fa4-9487-191316d8f289)
