@@ -34,8 +34,8 @@
 [![抖音](https://github.com/Enigma-Soul/Enigma-Soul/assets/119654171/7d647715-77af-46b3-842c-5e9647dcf7d6)](https://www.douyin.com/user/MS4wLjABAAAA16EMeqI21QTGzXLET8pDwkSUIwWeHsm-A0lrIKqw3rg)
 
 ### 所用工具
-[![pycharm](https://github.com/Enigma-Soul/Enigma-Soul/assets/119654171/ce9eb23e-b888-4e94-a439-1340442c51f0)](https://www.jetbrains.com/pycharm/)
-[![git](https://github.com/Enigma-Soul/Enigma-Soul/assets/119654171/596503e6-a7dc-44c6-a40f-c74fa1ce39e8)](https://git-scm.com/)
+[![pycharm](https://github.com/Enigma-Soul/Enigma-Soul/assets/119654171/2f288b29-01fc-4ab4-9e31-50aee3c84c6d)](https://www.jetbrains.com/pycharm/)
+[![git-bash](https://github.com/Enigma-Soul/Enigma-Soul/assets/119654171/729fd160-88f2-4fe4-8e8c-97cdc8c9fd2b)](https://git-scm.com/)
 
 
 ### 比较拿的出手的项目
