@@ -43,8 +43,7 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Enigma-Soul&repo=CannotTeachMe)](https://github.com/Enigma-Soul/CannotTeachMe)
 
 
-### BadApple On Everywhere
-https://github.com/Enigma-Soul/Enigma-Soul/assets/119654171/32d7d609-4863-40d9-be33-e990172200e2
+### 找人在这里移植Doom
 
 
 
