@@ -42,6 +42,8 @@
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Enigma-Soul&repo=CannotTeachMe)](https://github.com/Enigma-Soul/CannotTeachMe)
 
+### [下载站连接](https://github.com/Enigma-Soul/Enigma-Soul/tags)
+
 ### BadApple On Everywhere
 https://github.com/Enigma-Soul/Enigma-Soul/assets/119654171/32d7d609-4863-40d9-be33-e990172200e2
 
