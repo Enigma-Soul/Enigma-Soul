@@ -1,6 +1,9 @@
 # Enigma-Soul的主页
 
+**[简体中文]()**
+
 ### Github信息
+
 ![状态](https://github-readme-stats.vercel.app/api?username=Enigma-Soul&show_icons=true&theme=merko,)
 ![语言](https://github-readme-stats.vercel.app/api/top-langs/?username=Enigma-Soul&theme=merko,&layout=compact)
 
