@@ -2,7 +2,7 @@
 
 **简体中文** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
 **[English](https://github.com/Enigma-Soul/Enigma-Soul/blob/main/Lauguage/English.md)** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-**[အင်္ဂါဂြိုဟ်](https://github.com/Enigma-Soul/Enigma-Soul/blob/main/Lauguage/Mars.md)**
+**[火င်္ဂါဂြိုဟ်](https://github.com/Enigma-Soul/Enigma-Soul/blob/main/Lauguage/Mars.md)**
 
 ### Github信息
 ![状态](https://github-readme-stats.vercel.app/api?username=Enigma-Soul&show_icons=true&theme=merko,)
