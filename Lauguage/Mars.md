@@ -1,5 +1,9 @@
 # EnigmaSoul အိမ်စာမျက်နှာ
 
+**[简体中文](https://github.com/Enigma-Soul/Enigma-Soul/blob/main/Lauguage/Chinese.md)** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+**[English](https://github.com/Enigma-Soul/Enigma-Soul/blob/main/Lauguage/English.md)** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+**အင်္ဂါဂြိုဟ်**
+
 ### Github အချက်အလက်
 ![状态](https://github-readme-stats.vercel.app/api?username=Enigma-Soul&show_icons=true&theme=merko,)
 ![语言](https://github-readme-stats.vercel.app/api/top-langs/?username=Enigma-Soul&theme=merko,&layout=compact)
