@@ -1,8 +1,8 @@
 # Enigma-Soul的主页
 
-**[简体中文](https://github.com/Enigma-Soul/Enigma-Soul/blob/main/Lauguage/Chinese.md)**  
-**[English](https://github.com/Enigma-Soul/Enigma-Soul/blob/main/Lauguage/English.md)**
-**[简体中文](https://github.com/Enigma-Soul/Enigma-Soul/blob/main/Lauguage/Mars.md)**
+**[简体中文](https://github.com/Enigma-Soul/Enigma-Soul/blob/main/Lauguage/Chinese.md)** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+**[English](https://github.com/Enigma-Soul/Enigma-Soul/blob/main/Lauguage/English.md)** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+**[အင်္ဂါဂြိုဟ်](https://github.com/Enigma-Soul/Enigma-Soul/blob/main/Lauguage/Mars.md)**
 
 ### Github信息
 
