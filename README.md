@@ -1,6 +1,8 @@
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&&section=header&text=HI THERE&fontSize=90&fontAlign=50&fontAlignY=30&desc=I'M ENIGMA_SOUL&descAlign=50&descSize=30&descAlignY=60&animation=twinkling" /></p>
 
-### GithubInformation
+# Enigma-Soul的主页
+
+
+### Github信息
 ![状态](https://github-readme-stats.vercel.app/api?username=Enigma-Soul&show_icons=true&theme=merko,)
 ![语言](https://github-readme-stats.vercel.app/api/top-langs/?username=Enigma-Soul&theme=merko,&layout=compact)
 
