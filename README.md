@@ -1,11 +1,8 @@
+
 # Enigma-Soul的主页
 
-**[简体中文](https://github.com/Enigma-Soul/Enigma-Soul/blob/main/Lauguage/Chinese.md)** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-**[English](https://github.com/Enigma-Soul/Enigma-Soul/blob/main/Lauguage/English.md)** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-**[火င်္ဂါဂြိုဟ်](https://github.com/Enigma-Soul/Enigma-Soul/blob/main/Lauguage/Mars.md)**
 
 ### Github信息
-
 ![状态](https://github-readme-stats.vercel.app/api?username=Enigma-Soul&show_icons=true&theme=merko,)
 ![语言](https://github-readme-stats.vercel.app/api/top-langs/?username=Enigma-Soul&theme=merko,&layout=compact)
 
@@ -47,11 +44,5 @@
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Enigma-Soul&repo=CannotTeachMe)](https://github.com/Enigma-Soul/CannotTeachMe)
 
-
-
-
-
-
-
-
+### 我是
 <table><tbody><tr><td><a href="https://octo-ring.com/"><img src="https://octo-ring.com/static/img/widget/top.png" width="99%" alt="Octo Ring logo" align="top"></a><br><a href="https://octo-ring.com/p/Enigma-Soul/prev"><img src="https://octo-ring.com/static/img/widget/prev.png" width="33%" alt="previous" align="top" title="previous profile"></a><a href="https://octo-ring.com/p/Enigma-Soul/random"><img src="https://octo-ring.com/static/img/widget/random.png" width="33%" alt="random" align="top" title="random profile"></a><a href="https://octo-ring.com/p/Enigma-Soul/next"><img src="https://octo-ring.com/static/img/widget/next.png" width="33%" alt="next" align="top" title="next profile"></a><br><a href="https://octo-ring.com/"><img src="https://octo-ring.com/static/img/widget/bottom.png" width="99%" alt="check out other GitHub profiles in the Octo Ring" align="top"></a></td></tr></tbody></table>
