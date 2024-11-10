@@ -1,8 +1,5 @@
-
-# Enigma-Soul的主页
-
-
-### Github信息
+[![页面顶部](https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&&section=header&text=HI%20THERE&fontSize=90&fontAlign=50&fontAlignY=30&desc=I'm%20Enigma_Soul&descAlign=50&descSize=30&descAlignY=60&animation=twinkling)](https://github.com/Enigma-Soul)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=1500&pause=1500&color=3F8DF7&center=true&vCenter=true&width=435&lines=Hello;%E4%BD%A0%E5%A5%BD;I'm+Enigma_Soul;%E6%88%91%E6%98%AFEnigma_Soul;Welcome+To+My+Github+Page;%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84Github%E9%A1%B5%E9%9D%A2)](https://github.com/Enigma-Soul)
 ![状态](https://github-readme-stats.vercel.app/api?username=Enigma-Soul&show_icons=true&theme=merko,)
 ![语言](https://github-readme-stats.vercel.app/api/top-langs/?username=Enigma-Soul&theme=merko,&layout=compact)
 
@@ -46,3 +43,5 @@
 
 ### 我是
 <table><tbody><tr><td><a href="https://octo-ring.com/"><img src="https://octo-ring.com/static/img/widget/top.png" width="99%" alt="Octo Ring logo" align="top"></a><br><a href="https://octo-ring.com/p/Enigma-Soul/prev"><img src="https://octo-ring.com/static/img/widget/prev.png" width="33%" alt="previous" align="top" title="previous profile"></a><a href="https://octo-ring.com/p/Enigma-Soul/random"><img src="https://octo-ring.com/static/img/widget/random.png" width="33%" alt="random" align="top" title="random profile"></a><a href="https://octo-ring.com/p/Enigma-Soul/next"><img src="https://octo-ring.com/static/img/widget/next.png" width="33%" alt="next" align="top" title="next profile"></a><br><a href="https://octo-ring.com/"><img src="https://octo-ring.com/static/img/widget/bottom.png" width="99%" alt="check out other GitHub profiles in the Octo Ring" align="top"></a></td></tr></tbody></table>
+
+[![页面底部](https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&&section=footer&text=GOOD-BYE&fontSize=90&fontAlign=50&fontAlignY=30&desc=Hope%20your%20program%20is%20bug-free&descAlign=50&descSize=30&descAlignY=60&animation=twinkling)](https://github.com/Enigma-Soul)
