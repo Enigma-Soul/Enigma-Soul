@@ -11,10 +11,11 @@
 
 
 [![GitHub-Dark](https://stats.justsong.cn/api/github?username=Enigma-Soul&theme=highcontrast)](https://github.com/Enigma-Soul#gh-dark-mode-only)
-[![GitHub-Light](https://stats.justsong.cn/api/github?username=Enigma-Soul&theme=light)](https://github.com/Enigma-Soul#gh-light-mode-only)
-
 [![BiliBili-Dark](https://stats.justsong.cn/api/bilibili/?id=3493258967648353&theme=highcontrast)](https://space.bilibili.com/#gh-dark-mode-only)
+
+[![GitHub-Light](https://stats.justsong.cn/api/github?username=Enigma-Soul&theme=light)](https://github.com/Enigma-Soul#gh-light-mode-only)
 [![BiliBili-Light](https://stats.justsong.cn/api/bilibili/?id=3493258967648353&theme=light)](https://space.bilibili.com/#gh-light-mode-only)
+
 
 [//]: # (More Future)
 
