@@ -5,9 +5,9 @@
 [![Enigma_Soul's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Enigma-Soul&theme=high-contrast)](https://github.com/Enigma-Soul)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
-  <img alt="github-snake" src="github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Enigma-Soul/Enigma-Soul/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Enigma-Soul/Enigma-Soul/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Enigma-Soul/Enigma-Soul/output/github-snake.svg" />
 </picture>
 **This Page is developing**
 
