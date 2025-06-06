@@ -20,7 +20,7 @@
 <img
   src="https://render.gitanimals.org/farms/Enigma-Soul"
   width="1000"
-  height="150"
+  height="600"
 />
 </a>
 
