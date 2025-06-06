@@ -7,7 +7,7 @@
 [![language](https://github-readme-stats.vercel.app/api/top-langs/?username=Enigma-Soul&theme=highcontrast&layout=compact)](https://github.com/Enigma-Soul)
 [![language](https://github-readme-stats.vercel.app/api/top-langs/?username=Enigma-Soul&theme=&layout=compact)](https://github.com/Enigma-Soul)
 [![Enigma_Soul's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Enigma-Soul&theme=high-contrast)](https://github.com/Enigma-Soul)
-[![Enigma_Soul's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Enigma-Soul&theme=github-compact)](https://github.com/Enigma-Soul)
+[![Enigma_Soul's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Enigma-Soul&theme=github-compact&line=000000)](https://github.com/Enigma-Soul)
 
 
 ## Snake
