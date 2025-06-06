@@ -2,10 +2,10 @@
 
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=115&duration=1500&pause=1000&color=1E8AF7&center=true&vCenter=true&width=1000&height=300&lines=Open+Source;%E5%BC%80+%E6%BA%90;%D0%9E%D0%9F%D0%9E;%D9%85%D8%B5%D8%AF%D8%B1+%D9%85%D9%81%D8%AA%D9%88%D8%AD;C%C3%B3digo+Abierto)](https://github.com/Enigma-Soul)
-[![status-Dark](https://github-readme-stats.vercel.app/api?username=Enigma-Soul&show_icons=true&theme=highcontrast)](https://github.com/Enigma-Soul)
-[![status-Light](https://github-readme-stats.vercel.app/api?username=Enigma-Soul&show_icons=true&theme=)](https://github.com/Enigma-Soul)
-[![language-Dark](https://github-readme-stats.vercel.app/api/top-langs/?username=Enigma-Soul&theme=highcontrast&layout=compact)](https://github.com/Enigma-Soul)
-[![language-Light](https://github-readme-stats.vercel.app/api/top-langs/?username=Enigma-Soul&theme=&layout=compact)](https://github.com/Enigma-Soul)
+[![status-Dark](https://github-readme-stats.vercel.app/api?username=Enigma-Soul&show_icons=true&theme=highcontrast)](https://github.com/Enigma-Soul#gh-dark-mode-only)
+[![status-Light](https://github-readme-stats.vercel.app/api?username=Enigma-Soul&show_icons=true&theme=)](https://github.com/Enigma-Soul#gh-light-mode-only)
+[![language-Dark](https://github-readme-stats.vercel.app/api/top-langs/?username=Enigma-Soul&theme=highcontrast&layout=compact)](https://github.com/Enigma-Soul#gh-dark-mode-only)
+[![language-Light](https://github-readme-stats.vercel.app/api/top-langs/?username=Enigma-Soul&theme=&layout=compact)](https://github.com/Enigma-Soul#gh-light-mode-only)
 [![Enigma_Soul's github activity graph-Dark](https://github-readme-activity-graph.vercel.app/graph?username=Enigma-Soul&theme=high-contrast)](https://github.com/Enigma-Soul)
 [![Enigma_Soul's github activity graph-Light](https://github-readme-activity-graph.vercel.app/graph?username=Enigma-Soul&theme=github-compact&line=000000&point=000000)](https://github.com/Enigma-Soul#gh-light-mode-only)
 
