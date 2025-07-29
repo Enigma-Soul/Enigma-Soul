@@ -54,6 +54,34 @@
 [![light](https://raw.githubusercontent.com/Enigma-Soul/andy-thawing/output/light.png)](https://github.com/Enigma-Soul#gh-light-mode-only)
 [![dark](https://raw.githubusercontent.com/Enigma-Soul/andy-thawing/output/dark.png)](https://github.com/Enigma-Soul#gh-dark-mode-only)
 
-<table><tbody><tr><td><a href="https://octo-ring.com/"><img src="https://octo-ring.com/static/img/widget/top.png" width="99%" alt="Octo Ring logo" align="top"></a><br><a href="https://octo-ring.com/p/Enigma-Soul/prev"><img src="https://octo-ring.com/static/img/widget/prev.png" width="33%" alt="previous" align="top" title="previous profile"></a><a href="https://octo-ring.com/p/Enigma-Soul/random"><img src="https://octo-ring.com/static/img/widget/random.png" width="33%" alt="random" align="top" title="random profile"></a><a href="https://octo-ring.com/p/Enigma-Soul/next"><img src="https://octo-ring.com/static/img/widget/next.png" width="33%" alt="next" align="top" title="next profile"></a><br><a href="https://octo-ring.com/"><img src="https://octo-ring.com/static/img/widget/bottom.png" width="99%" alt="check out other GitHub profiles in the Octo Ring" align="top"></a></td></tr></tbody></table>
+
+
+<table>
+    <tbody>
+    <tr>
+        <td>
+            <a href="https://octo-ring.com/">
+                <img src="https://raw.githubusercontent.com/Enigma-Soul/Enigma-Soul/main/top.png" width="100%" 
+                     alt="Octo Ring" align="top">
+            </a>
+            <br>
+            <a href="https://octo-ring.com/p/Enigma-Soul/prev">
+                <img src="https://raw.githubusercontent.com/Enigma-Soul/Enigma-Soul/main/prev.png" width="100%" alt="previous"
+                align="top" title="previous profile">
+            </a>
+            <a href="https://octo-ring.com/p/Enigma-Soul/random">
+                <img src="https://raw.githubusercontent.com/Enigma-Soul/Enigma-Soul/main/ram.png" width="100%" alt="random"
+                align="top" title="random profile">
+            </a>
+            <a href="https://octo-ring.com/p/Enigma-Soul/next">
+                <img src="https://raw.githubusercontent.com/Enigma-Soul/Enigma-Soul/main/next.png" width="100%" alt="next"
+                align="top" title="next profile">
+            </a>
+            <br>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
 
 [![Bottom](https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&&section=footer&text=GOOD-BYE&fontSize=90&fontAlign=50&fontAlignY=30&desc=Hope%20your%20program%20is%20bug-free&descAlign=50&descSize=30&descAlignY=60&animation=twinkling)](https://github.com/Enigma-Soul)
