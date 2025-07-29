@@ -66,15 +66,15 @@
             </a>
             <br>
             <a href="https://octo-ring.com/p/Enigma-Soul/prev">
-                <img src="https://raw.githubusercontent.com/Enigma-Soul/Enigma-Soul/main/octo/prev.png" width="100%" alt="previous"
+                <img src="https://raw.githubusercontent.com/Enigma-Soul/Enigma-Soul/main/octo/prev.png" width="33%" alt="previous"
                 align="top" title="previous profile">
             </a>
             <a href="https://octo-ring.com/p/Enigma-Soul/random">
-                <img src="https://raw.githubusercontent.com/Enigma-Soul/Enigma-Soul/main/octo/ram.png" width="100%" alt="random"
+                <img src="https://raw.githubusercontent.com/Enigma-Soul/Enigma-Soul/main/octo/ram.png" width="34%" alt="random"
                 align="top" title="random profile">
             </a>
             <a href="https://octo-ring.com/p/Enigma-Soul/next">
-                <img src="https://raw.githubusercontent.com/Enigma-Soul/Enigma-Soul/main/octo/next.png" width="100%" alt="next"
+                <img src="https://raw.githubusercontent.com/Enigma-Soul/Enigma-Soul/main/octo/next.png" width="33%" alt="next"
                 align="top" title="next profile">
             </a>
             <br>
