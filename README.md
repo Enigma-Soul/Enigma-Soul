@@ -70,7 +70,7 @@
                 align="top" title="previous profile">
             </a>
             <a href="https://octo-ring.com/p/Enigma-Soul/random">
-                <img src="https://raw.githubusercontent.com/Enigma-Soul/Enigma-Soul/main/octo/ram.png" width="34%" alt="random"
+                <img src="https://raw.githubusercontent.com/Enigma-Soul/Enigma-Soul/main/octo/ram.png" width="33%" alt="random"
                 align="top" title="random profile">
             </a>
             <a href="https://octo-ring.com/p/Enigma-Soul/next">
