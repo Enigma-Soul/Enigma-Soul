@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random GitHub Repo</title>
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #333333;
+            --button-bg: #0366d6;
+            --button-hover: #035fc7;
+            --button-text: #ffffff;
+            --border-color: #0366d6;
+        }
+
+        [data-theme="dark"] {
+            --bg-color: #121212;
+            --text-color: #f0f0f0;
+            --button-bg: #0366d6;
+            --button-hover: #035fc7;
+            --button-text: #ffffff;
+            --border-color: #0366d6;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            transition: background-color 0.3s, color 0.3s;
+            text-align: center;
+        }
+
+        .btn {
+            background-color: var(--button-bg);
+            color: var(--button-text);
+            border: 1px solid var(--border-color);
+            padding: 12px 24px;
+            font-size: 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .btn:hover {
+            background-color: var(--button-hover);
+            transform: translateY(-2px);
+        }
+
+        .theme-toggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--text-color);
+        }
+
+        .loading {
+            display: none;
+            margin-bottom: 20px;
+        }
+
+        .error {
+            color: #d73a49;
+            display: none;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <button class="theme-toggle" id="themeToggle">🌓</button>
+    
+    <div class="loading" id="loading">Loading...</div>
+    <div class="error" id="error"></div>
+    <button class="btn" id="redirectBtn">Go to Random Repo</button>
+
+    <script>
+        // Theme toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        let currentTheme = localStorage.getItem('theme') || (prefersDark ? 'dark' : 'light');
+        
+        function setTheme(theme) {
+            document.documentElement.setAttribute('data-theme', theme);
+            localStorage.setItem('theme', theme);
+        }
+        
+        setTheme(currentTheme);
+        
+        themeToggle.addEventListener('click', () => {
+            currentTheme = currentTheme === 'light' ? 'dark' : 'light';
+            setTheme(currentTheme);
+        });
+
+        // Redirect functionality
+        const redirectBtn = document.getElementById('redirectBtn');
+        const loadingEl = document.getElementById('loading');
+        const errorEl = document.getElementById('error');
+        
+        let cachedRepos = null;
+        
+        async function redirectToRandomRepo(minStars = 100, pageSize = 100) {
+            const API_URL = `https://api.github.com/search/repositories?q=stars:>${minStars}&sort=stars&order=desc&per_page=${pageSize}`;
+            const CACHE_KEY = `gh_repos_${minStars}`;
+            const CACHE_TTL = 3600000;
+
+            try {
+                loadingEl.style.display = 'block';
+                errorEl.style.display = 'none';
+                
+                const cached = sessionStorage.getItem(CACHE_KEY);
+                let repos = cached ? JSON.parse(cached).data : null;
+
+                if (cached) {
+                    const cacheData = JSON.parse(cached);
+                    const isExpired = Date.now() - cacheData.timestamp > CACHE_TTL;
+                    if (isExpired) repos = null;
+                }
+
+                if (!repos) {
+                    const response = await fetch(API_URL, {
+                        headers: { 'Accept': 'application/vnd.github.v3+json' }
+                    });
+
+                    if (!response.ok) throw new Error(`API Error: ${response.status}`);
+
+                    const data = await response.json();
+                    repos = data.items;
+
+                    sessionStorage.setItem(CACHE_KEY, JSON.stringify({
+                        timestamp: Date.now(),
+                        data: repos
+                    }));
+                }
+
+                cachedRepos = repos;
+
+                if (repos?.length > 0) {
+                    const randomRepo = repos[Math.floor(Math.random() * repos.length)];
+                    location.replace(randomRepo.html_url);
+                    return;
+                }
+
+                throw new Error('No repositories found');
+
+            } catch (error) {
+                console.error('Redirect failed:', error);
+                loadingEl.style.display = 'none';
+                errorEl.style.display = 'block';
+                errorEl.textContent = `Error: ${error.message}`;
+                redirectBtn.textContent = 'Try Again';
+            } finally {
+                loadingEl.style.display = 'none';
+            }
+        }
+
+        redirectBtn.addEventListener('click', () => {
+            if (cachedRepos?.length > 0) {
+                const randomRepo = cachedRepos[Math.floor(Math.random() * cachedRepos.length)];
+                location.replace(randomRepo.html_url);
+            } else {
+                redirectToRandomRepo();
+            }
+        });
+
+        // Auto redirect on load
+        window.addEventListener('DOMContentLoaded', () => {
+            redirectToRandomRepo();
+        });
+    </script>
+</body>
+</html>
