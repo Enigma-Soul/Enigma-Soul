@@ -5,6 +5,8 @@
 [![Count](https://count.getloli.com/@:Enigma_Soul-Github?name=%3AEnigma_Soul-Github&theme=minecraft&padding=7&offset=0&align=center&scale=1&pixelated=1&darkmode=1)](https://github.com/Enigma-Soul#gh-dark-mode-only)
 [![Count](https://count.getloli.com/@:Enigma_Soul-Github?name=%3AEnigma_Soul-Github&theme=minecraft&padding=7&offset=0&align=center&scale=1&pixelated=1&darkmode=0)](https://github.com/Enigma-Soul#gh-light-mode-only)
 
+<br>
+
 [![status-Dark](https://github-readme-stats.vercel.app/api?username=Enigma-Soul&show_icons=true&theme=highcontrast)](https://github.com/Enigma-Soul#gh-dark-mode-only)
 [![status-Light](https://github-readme-stats.vercel.app/api?username=Enigma-Soul&show_icons=true&theme=)](https://github.com/Enigma-Soul#gh-light-mode-only)
 [![language-Dark](https://github-readme-stats.vercel.app/api/top-langs/?username=Enigma-Soul&theme=highcontrast&layout=compact)](https://github.com/Enigma-Soul#gh-dark-mode-only)
