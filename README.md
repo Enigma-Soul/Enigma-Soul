@@ -24,11 +24,28 @@
 
 [//]: # (More Future)
 
-[//]: # (Language:)
+[//]: # (Shields:)
+
+[//]: # ([![Example]&#40;url&#41;]&#40;https://github.com/Enigma-Soul&#41;)
+
 [![Python](https://img.shields.io/badge/%20-_Python-%233776AB?logo=python&logoColor=%23FFFFFF)](https://github.com/Enigma-Soul)
 [![JS](https://img.shields.io/badge/%20-_Javascript-%23F7DF1E?logo=javascript&logoColor=%23FFFFFF)](https://github.com/Enigma-Soul)
 [![CPP](https://img.shields.io/badge/%20-_C%2B%2B-%2300599C?logo=cplusplus&logoColor=%23FFFFFF)](https://github.com/Enigma-Soul)
 [![HTML5](https://img.shields.io/badge/%20-_HTML-%23E34F26?logo=html5&logoColor=%23FFFFFF)](https://github.com/Enigma-Soul)
+[![MicroPython](https://img.shields.io/badge/MicroPython-_?logo=micropython&color=%232B2728)](https://github.com/Enigma-Soul)
+[![Wechat](https://img.shields.io/badge/WeChat-_?logo=wechat&logoColor=%23FFFFFF&color=%2307C160)](https://github.com/Enigma-Soul)
+[![QQ](https://img.shields.io/badge/QQ-_?logo=qq&logoColor=%23FFFFFF&color=%2300BFFF)](https://github.com/Enigma-Soul)
+[![Alipay](https://img.shields.io/badge/Alipay-_?logo=alipay&logoColor=%23FFFFFF&color=%231677FF)](https://github.com/Enigma-Soul)
+
+
+
+
+[//]: # (Random Repo)
+
+[![Random Repo](https://readme-typing-svg.demolab.com?font=Fira+Code&size=57&duration=750&pause=1000&color=15A305&center=true&vCenter=true&width=600&height=150&lines=Random+Repo+Here;Good+Luck+!!!)](https://enigma-soul.github.io/Enigma-Soul/random-repo)
+
+
+
 
 
 
