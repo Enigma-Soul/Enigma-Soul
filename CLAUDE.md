@@ -4,42 +4,47 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-This is a GitHub profile repository (username `Enigma-Soul`). It renders a customized GitHub profile page via `README.md` and hosts two static HTML pages on GitHub Pages. There is no build system, package manager, or framework — everything is static HTML/CSS/JS and Markdown.
+GitHub profile repository (username `Enigma-Soul`). Renders a customized profile page via `README.md` and hosts static HTML pages on GitHub Pages. No build system, package manager, or framework — pure static HTML/CSS/JS and Markdown.
 
-## Repository Structure
+## Development
 
-- `README.md` — The GitHub profile page. Assembles visual elements using external badge/visualization services: capsule-render (animated header/footer), readme-typing-svg (multilingual typing animation), github-readme-stats (activity cards), shields.io (tech badges), github-readme-activity-graph (contribution graph), stats.justsong.cn (GitHub/Bilibili stats), gitanimals (farm visualization).
-- `index.html` — Minimal GitHub Pages site displaying "Future" using the custom `AlimamaAgile` variable font.
-- `random-repo/` — Standalone GitHub Pages app that fetches popular repos via GitHub Search API and redirects to a random one. Caches results in sessionStorage (1-hour TTL). Features a 3D CSS dice with auto-roll animation (every 3s), particle background, and dark/light theme toggle.
-  - `index.html` — Page structure
-  - `style.css` — Styles (dark/light themes, dice grid, particles, animations)
-  - `script.js` — Logic (particles, theme toggle, dice rotation, GitHub API, redirect)
-  - `badge.svg` — Badge icon for the README entry, animated gradient border with dice icon
-- `fonts/` — Custom variable font `AlimamaAgile` (WOFF/WOFF2) used by `index.html`.
-- `octo/` — Image assets for the Octo Ring webring navigation (header, prev/next/random buttons).
-- `output` branch — Stores auto-generated snake contribution SVGs (light/dark variants), deployed by the GitHub Actions workflow.
+There are no build/test/lint commands. To preview changes:
+- Open `index.html` or `random-repo/index.html` directly in a browser
+- Or push to `main` and verify via GitHub Pages (`https://enigma-soul.github.io/Enigma-Soul/`)
 
-## GitHub Actions Workflow
+README.md renders as the GitHub profile page — changes are visible immediately on push.
 
-`.github/workflows/snk.yml` runs the `Platane/snk/svg-only@v3` action to generate animated SVG snake game visualizations from the contribution graph. It triggers on:
-- Cron schedule (every 24 hours)
-- Push to `main`
-- Manual `workflow_dispatch`
+## Architecture
 
-Output SVGs are pushed to the `output` branch via `crazy-max/ghaction-github-pages@v3.1.0` and embedded in README.md.
+Two independent GitHub Pages apps and one Actions workflow:
 
-## Key External Services
+**`index.html` + `fonts/`** — Minimal landing page displaying "Future" using the `AlimamaAgile` variable font with font-variation-settings.
 
-The profile depends on these external APIs/services being available:
-- `capsule-render.vercel.app` — Animated gradient banners
+**`random-repo/`** — Random GitHub repo redirector. Entry point linked from README via `badge.svg`.
+- 3D CSS dice (6-face cube with `transform-style: preserve-3d`, `grid-area` dot positioning) auto-rolls every 3s via accumulated `spinCount` rotation
+- Canvas particle background with faint connection lines, color adapts to theme
+- Dark/light theme via `data-theme` attribute on `<html>`, persisted in `localStorage`
+- GitHub Search API (`stars:>100`) with `sessionStorage` cache (1-hour TTL)
+- Auto-redirects on `DOMContentLoaded`; stops auto-roll during redirect, resumes on error
+
+**`.github/workflows/snk.yml`** → `output` branch — Generates snake contribution SVGs via `Platane/snk/svg-only@v3`, deployed to `output` branch, embedded in README with dark/light `<picture>` variants.
+
+## README.md Pattern
+
+README uses the `#gh-dark-mode-only` / `#gh-light-mode-only` fragment trick on image links to serve theme-appropriate variants of the same card. All visual content comes from external badge/visualization services — no local image assets except `octo/` (webring navigation) and `random-repo/badge.svg`.
+
+## External Service Dependencies
+
+- `capsule-render.vercel.app` — Animated gradient header/footer banners
 - `readme-typing-svg.demolab.com` — Typing SVG animation
 - `count.getloli.com` — Visitor counter
-- `github-readme-stats.vercel.app` — GitHub stats cards
-- `github-readme-activity-graph.vercel.app` — Activity graph
+- `github-readme-stats.vercel.app` — Stats and language cards
+- `github-readme-activity-graph.vercel.app` — Contribution graph
 - `stats.justsong.cn` — GitHub/Bilibili stats (Bilibili UID: 3493258967648353)
 - `render.gitanimals.org` — Git Animals farm
 - `octo-ring.com` — Octo Ring webring
+- GitHub Search API — Used by `random-repo/script.js` for fetching popular repos
 
 ## Language
 
-The user communicates in Chinese. README content mixes Chinese and English. Respond and write documentation in Chinese unless otherwise specified.
+The user communicates in Chinese. Respond and write documentation in Chinese unless otherwise specified.
