@@ -42,7 +42,7 @@
 
 [//]: # (Random Repo)
 
-[![Random Repo](https://readme-typing-svg.demolab.com?font=Fira+Code&size=57&duration=750&pause=1000&color=15A305&center=true&vCenter=true&width=600&height=150&lines=Random+Repo+Here;Good+Luck+!!!)](https://enigma-soul.github.io/Enigma-Soul/random-repo)
+[![Random Repo](https://raw.githubusercontent.com/Enigma-Soul/Enigma-Soul/main/random-repo/badge.svg)](https://enigma-soul.github.io/Enigma-Soul/random-repo/)
 
 
 
