@@ -412,6 +412,37 @@ body {
 
 .modal-overlay.open { display: flex; }
 
+/* ========== 图片放大预览 ========== */
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.88);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  cursor: zoom-out;
+  animation: fadeIn 0.15s ease;
+}
+.lightbox-overlay.open { display: flex; }
+
+.lightbox-img {
+  max-width: 95vw;
+  max-height: 95vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+#previewImg.active { cursor: zoom-in; }
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
 .param-window {
   background: var(--bg-card);
   border-radius: 22px;
