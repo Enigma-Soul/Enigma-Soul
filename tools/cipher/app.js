@@ -38,6 +38,8 @@ const videoProgressBar = document.getElementById('videoProgressBar');
 const videoProgressFill = document.getElementById('videoProgressFill');
 const progressBar = document.getElementById('progressBar');
 const progressText = document.getElementById('progressText');
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightboxImg');
 
 // 弹窗
 const encryptModal = document.getElementById('encryptModal');
@@ -764,6 +766,27 @@ function webglRenderFrameWithVideo(video) {
   state.displayCtx.clearRect(0, 0, previewCanvas.width, previewCanvas.height);
   state.displayCtx.drawImage(state.offscreenCanvas, 0, 0);
 }
+
+// ========== 图片放大预览 ==========
+previewImg.addEventListener('click', () => {
+  if (!previewImg.src || !previewImg.classList.contains('active')) return;
+  lightboxImg.src = previewImg.src;
+  lightbox.classList.add('open');
+});
+
+lightbox.addEventListener('click', e => {
+  if (e.target === lightbox || e.target === lightboxImg) {
+    lightbox.classList.remove('open');
+    lightboxImg.src = '';
+  }
+});
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && lightbox.classList.contains('open')) {
+    lightbox.classList.remove('open');
+    lightboxImg.src = '';
+  }
+});
 
 // ========== 视频进度条拖动 ==========
 videoProgressBar.addEventListener('click', e => {
