@@ -157,21 +157,8 @@ export function buildGilbertEncryptMap(width, height, key) {
  * @returns {Uint32Array}
  */
 export function buildGilbertDecryptMap(width, height, key) {
-  const total = width * height;
-  const curve = getGilbertIndices(width, height);
-  const offset = getGilbertOffset(key, total);
-
-  const rolled = new Uint32Array(total);
-  for (let i = 0; i < total; i++) rolled[i] = curve[(i + offset) % total];
-
-  // encMap: curve[i] -> rolled[i]
-  const encMap = new Uint32Array(total);
-  for (let i = 0; i < total; i++) encMap[curve[i]] = rolled[i];
-
-  // 反转得到解密映射
-  const decMap = new Uint32Array(total);
-  for (let i = 0; i < total; i++) decMap[encMap[i]] = i;
-  return decMap;
+  const encMap = buildGilbertEncryptMap(width, height, key);
+  return invertMap(encMap, width * height);
 }
 
 // ─── 块打乱 ─────────────────────────────────────────────
@@ -249,39 +236,8 @@ export function buildBlockEncryptMap(width, height, blockW, blockH, key) {
  * @returns {Uint32Array}
  */
 export function buildBlockDecryptMap(width, height, blockW, blockH, key) {
-  const cols = Math.ceil(width / blockW);
-  const rows = Math.ceil(height / blockH);
-  const totalBlocks = cols * rows;
-  const encryptOrder = generateBlockOrder(totalBlocks, key);
-
-  const blocks = [];
-  for (let row = 0; row < rows; row++) {
-    for (let col = 0; col < cols; col++) {
-      const x = col * blockW, y = row * blockH;
-      const w = Math.min(blockW, width - x);
-      const h = Math.min(blockH, height - y);
-      blocks.push({ x, y, w, h, col, row, idx: row * cols + col });
-    }
-  }
-
-  const decryptMap = new Uint32Array(width * height);
-  for (let srcBlockIdx = 0; srcBlockIdx < totalBlocks; srcBlockIdx++) {
-    const dstBlockIdx = encryptOrder[srcBlockIdx];
-    const srcBlock = blocks[srcBlockIdx];
-    const dstBlock = blocks[dstBlockIdx];
-    for (let localY = 0; localY < srcBlock.h; localY++) {
-      for (let localX = 0; localX < srcBlock.w; localX++) {
-        const srcX = srcBlock.x + localX;
-        const srcY = srcBlock.y + localY;
-        const dstX = dstBlock.x + localX;
-        const dstY = dstBlock.y + localY;
-        if (dstX < width && dstY < height) {
-          decryptMap[srcY * width + srcX] = dstY * width + dstX;
-        }
-      }
-    }
-  }
-  return decryptMap;
+  const encMap = buildBlockEncryptMap(width, height, blockW, blockH, key);
+  return invertMap(encMap, width * height);
 }
 
 // ─── 统一接口 ───────────────────────────────────────────
