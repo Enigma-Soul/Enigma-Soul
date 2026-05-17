@@ -1,16 +1,25 @@
 [![Top](https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&&section=header&text=HI%20THERE&fontSize=90&fontAlign=50&fontAlignY=30&desc=I'm%20Enigma_Soul&descAlign=50&descSize=30&descAlignY=60&animation=twinkling)](https://github.com/Enigma-Soul)
 
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=115&duration=1500&pause=1000&color=1E8AF7&center=true&vCenter=true&width=1000&height=300&lines=Open+Source;%E5%BC%80+%E6%BA%90;%D0%9E%D0%9F%D0%9E;%D9%85%D8%B5%D8%AF%D8%B1+%D9%85%D9%81%D8%AA%D9%88%D8%AD;C%C3%B3digo+Abierto)](https://github.com/Enigma-Soul)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=115&duration=1500&pause=1000&color=1E8AF7&center=true&vCenter=true&width=1000&height=300&lines=Open+Source;%E5%BC%80+%E6%BA%90;%D0%9E%D0%9F%D0%9E;%D9%85%D8%B5%D8%AF%D8%B1+%D9%85%D9%81%D8%AA%D9%88%D0%AD;C%C3%B3digo+Abierto)](https://github.com/Enigma-Soul)
 [![Count](https://count.getloli.com/@:Enigma_Soul-Github?name=%3AEnigma_Soul-Github&theme=minecraft&padding=7&offset=0&align=center&scale=1&pixelated=1&darkmode=1)](https://github.com/Enigma-Soul#gh-dark-mode-only)
 [![Count](https://count.getloli.com/@:Enigma_Soul-Github?name=%3AEnigma_Soul-Github&theme=minecraft&padding=7&offset=0&align=center&scale=1&pixelated=1&darkmode=0)](https://github.com/Enigma-Soul#gh-light-mode-only)
 
 <br>
 
+## Trophy
+
+[![Trophy-Dark](https://github-profile-trophy.vercel.app/?username=Enigma-Soul&theme=darkhub&rank=-?&column=-1&margin-w=10)](https://github.com/Enigma-Soul#gh-dark-mode-only)
+[![Trophy-Light](https://github-profile-trophy.vercel.app/?username=Enigma-Soul&theme=flat&rank=-?&column=-1&margin-w=10)](https://github.com/Enigma-Soul#gh-light-mode-only)
+
 [![status-Dark](https://github-readme-stats.vercel.app/api?username=Enigma-Soul&show_icons=true&theme=highcontrast)](https://github.com/Enigma-Soul#gh-dark-mode-only)
 [![status-Light](https://github-readme-stats.vercel.app/api?username=Enigma-Soul&show_icons=true&theme=)](https://github.com/Enigma-Soul#gh-light-mode-only)
 [![language-Dark](https://github-readme-stats.vercel.app/api/top-langs/?username=Enigma-Soul&theme=highcontrast&layout=compact)](https://github.com/Enigma-Soul#gh-dark-mode-only)
 [![language-Light](https://github-readme-stats.vercel.app/api/top-langs/?username=Enigma-Soul&theme=&layout=compact)](https://github.com/Enigma-Soul#gh-light-mode-only)
+
+[![GitHub Streak-Dark](https://streak-stats.demolab.com/?user=Enigma-Soul&theme=highcontrast&locale=zh_Hans)](https://github.com/Enigma-Soul#gh-dark-mode-only)
+[![GitHub Streak-Light](https://streak-stats.demolab.com/?user=Enigma-Soul&theme=default&locale=zh_Hans)](https://github.com/Enigma-Soul#gh-light-mode-only)
+
 [![Enigma_Soul's github activity graph-Dark](https://github-readme-activity-graph.vercel.app/graph?username=Enigma-Soul&theme=high-contrast)](https://github.com/Enigma-Soul#gh-dark-mode-only)
 [![Enigma_Soul's github activity graph-Light](https://github-readme-activity-graph.vercel.app/graph?username=Enigma-Soul&theme=github-compact&line=000000&point=000000)](https://github.com/Enigma-Soul#gh-light-mode-only)
 
@@ -22,35 +31,16 @@
 [![BiliBili-Light](https://stats.justsong.cn/api/bilibili/?id=3493258967648353&theme=light)](https://space.bilibili.com/#gh-light-mode-only)
 
 
-[//]: # (More Future)
+## Skills
 
-[//]: # (Shields:)
+[![My Skills-Dark](https://skillicons.dev/icons?i=py,js,cpp,html,git,github&theme=dark)](https://skillicons.dev#gh-dark-mode-only)
+[![My Skills-Light](https://skillicons.dev/icons?i=py,js,cpp,html,git,github&theme=light)](https://skillicons.dev#gh-light-mode-only)
 
-[//]: # ([![Example]&#40;url&#41;]&#40;https://github.com/Enigma-Soul&#41;)
-
-[![Python](https://img.shields.io/badge/%20-_Python-%233776AB?logo=python&logoColor=%23FFFFFF)](https://github.com/Enigma-Soul)
-[![JS](https://img.shields.io/badge/%20-_Javascript-%23F7DF1E?logo=javascript&logoColor=%23FFFFFF)](https://github.com/Enigma-Soul)
-[![CPP](https://img.shields.io/badge/%20-_C%2B%2B-%2300599C?logo=cplusplus&logoColor=%23FFFFFF)](https://github.com/Enigma-Soul)
-[![HTML5](https://img.shields.io/badge/%20-_HTML-%23E34F26?logo=html5&logoColor=%23FFFFFF)](https://github.com/Enigma-Soul)
-[![MicroPython](https://img.shields.io/badge/MicroPython-_?logo=micropython&color=%232B2728)](https://github.com/Enigma-Soul)
 [![Wechat](https://img.shields.io/badge/WeChat-_?logo=wechat&logoColor=%23FFFFFF&color=%2307C160)](https://github.com/Enigma-Soul)
 [![QQ](https://img.shields.io/badge/QQ-_?logo=qq&logoColor=%23FFFFFF&color=%2300BFFF)](https://github.com/Enigma-Soul)
 [![Alipay](https://img.shields.io/badge/Alipay-_?logo=alipay&logoColor=%23FFFFFF&color=%231677FF)](https://github.com/Enigma-Soul)
 
-
-
-
-[//]: # (Random Repo)
-
 [![Random Repo](https://raw.githubusercontent.com/Enigma-Soul/Enigma-Soul/main/random-repo/badge.svg)](https://enigma-soul.github.io/Enigma-Soul/random-repo/)
-
-
-
-
-
-
-
-
 
 
 ## Snake
@@ -84,7 +74,7 @@
     <tr>
         <td>
             <a href="https://octo-ring.com/">
-                <img src="https://raw.githubusercontent.com/Enigma-Soul/Enigma-Soul/main/octo/top.png" width="100%" 
+                <img src="https://raw.githubusercontent.com/Enigma-Soul/Enigma-Soul/main/octo/top.png" width="100%"
                      alt="Octo Ring" align="top">
             </a>
             <br>
