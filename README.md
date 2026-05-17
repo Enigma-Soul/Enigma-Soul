@@ -12,11 +12,6 @@
 [![Trophy-Dark](https://github-profile-trophy.vercel.app/?username=Enigma-Soul&theme=darkhub&rank=-?&column=-1&margin-w=10)](https://github.com/Enigma-Soul#gh-dark-mode-only)
 [![Trophy-Light](https://github-profile-trophy.vercel.app/?username=Enigma-Soul&theme=flat&rank=-?&column=-1&margin-w=10)](https://github.com/Enigma-Soul#gh-light-mode-only)
 
-[![status-Dark](https://github-readme-stats.vercel.app/api?username=Enigma-Soul&show_icons=true&theme=highcontrast)](https://github.com/Enigma-Soul#gh-dark-mode-only)
-[![status-Light](https://github-readme-stats.vercel.app/api?username=Enigma-Soul&show_icons=true&theme=)](https://github.com/Enigma-Soul#gh-light-mode-only)
-[![language-Dark](https://github-readme-stats.vercel.app/api/top-langs/?username=Enigma-Soul&theme=highcontrast&layout=compact)](https://github.com/Enigma-Soul#gh-dark-mode-only)
-[![language-Light](https://github-readme-stats.vercel.app/api/top-langs/?username=Enigma-Soul&theme=&layout=compact)](https://github.com/Enigma-Soul#gh-light-mode-only)
-
 [![GitHub Streak-Dark](https://streak-stats.demolab.com/?user=Enigma-Soul&theme=highcontrast&locale=zh_Hans)](https://github.com/Enigma-Soul#gh-dark-mode-only)
 [![GitHub Streak-Light](https://streak-stats.demolab.com/?user=Enigma-Soul&theme=default&locale=zh_Hans)](https://github.com/Enigma-Soul#gh-light-mode-only)
 
