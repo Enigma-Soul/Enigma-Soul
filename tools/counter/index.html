@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-cn" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0">
+  <title>字数统计</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect rx='18' width='100' height='100' fill='%232563eb'/%3E%3Ctext x='50' y='72' text-anchor='middle' font-size='52' font-family='system-ui' font-weight='bold' fill='white'%3E%E5%AD%97%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 主题切换 -->
+<button class="theme-toggle" id="themeToggle" aria-label="切换主题">
+  <span class="toggle-icon sun">☀️</span>
+  <span class="toggle-icon moon">🌙</span>
+</button>
+
+<div class="tool-card">
+  <!-- 标题 -->
+  <div class="card-header">
+    <h1 class="card-title">字数统计</h1>
+    <p class="card-desc">实时文本字数统计工具</p>
+  </div>
+
+  <!-- 文本输入 -->
+  <div class="textarea-wrap">
+    <textarea id="textInput" class="text-input"
+              placeholder="在此输入或粘贴文本…"
+              rows="10"
+              spellcheck="false"></textarea>
+  </div>
+
+  <!-- 操作按钮 -->
+  <div class="action-bar">
+    <button class="btn btn-outline" id="clearBtn">
+      <span class="btn-emoji">🗑️</span>
+      <span class="btn-label">清空</span>
+    </button>
+    <button class="btn btn-accent" id="copyBtn" disabled>
+      <span class="btn-emoji">📋</span>
+      <span class="btn-label">复制</span>
+    </button>
+  </div>
+
+  <!-- 统计网格 -->
+  <div class="stats-grid">
+    <div class="stat-item">
+      <span class="stat-value" id="statTotalChars">0</span>
+      <span class="stat-label">总字符数</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-value" id="statCharsNoSpace">0</span>
+      <span class="stat-label">不含空格字符数</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-value" id="statWordCount">0</span>
+      <span class="stat-label">字数</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-value" id="statChineseChars">0</span>
+      <span class="stat-label">中文字数</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-value" id="statEnglishWords">0</span>
+      <span class="stat-label">英文单词数</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-value" id="statPunctuation">0</span>
+      <span class="stat-label">标点符号数</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-value" id="statParagraphs">0</span>
+      <span class="stat-label">段落数</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-value" id="statLines">0</span>
+      <span class="stat-label">行数</span>
+    </div>
+  </div>
+</div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

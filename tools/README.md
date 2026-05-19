@@ -75,3 +75,23 @@ const resultData = applyMap(sourceImageData, width, height, encMap);
 | `buildEncryptMap(method, w, h, key, opts)` | 统一加密接口 |
 | `buildDecryptMap(method, w, h, key, opts)` | 统一解密接口 |
 | `applyMap(data, w, h, map)` | 应用映射到像素数据 |
+
+## counter/
+
+实时文本字数统计工具。
+
+### 功能
+
+- 实时统计：总字符数、不含空格字符数、字数、中文字数、英文单词数、标点符号数、段落数、行数
+- 清空 / 复制操作
+- 深色/浅色主题，响应式移动端适配
+- 全部本地处理，不上传服务器
+
+### 文件结构
+
+```
+counter/
+  index.html    HTML 骨架
+  style.css     样式（CSS 变量主题、响应式）
+  app.js        UI 逻辑（ES module）
+```
